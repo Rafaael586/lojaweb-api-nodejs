@@ -1,0 +1,25 @@
+{
+  "name": "lojaweb-api-node",
+  "version": "1.0.0",
+  "description": "Api para loja web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafaael586/lojaweb-api-nodejs.git"
+  },
+  "author": "Rafael Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafaael586/lojaweb-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/Rafaael586/lojaweb-api-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
+  }
+}
